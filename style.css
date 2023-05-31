@@ -15,10 +15,9 @@ body{
 }
 .navbar{
     background-color: black;
-    margin: 1px 0px 0px 1px;
-    height: 80px;
+    padding: 5px;
     display: flex;
-    border: solid black;
+    border: none;
     color: #ffff;
     align-items: center;
 }
@@ -48,7 +47,8 @@ body{
     color: #fefbfe;
     font-family:Montserrat ;
     font-size: 13px;
-    margin-left: 400px;
+    position: relative;
+    left: 300px;
 }
 .hero{
     display: flex;
